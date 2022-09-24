@@ -2,15 +2,15 @@
 @model RapiTalleres.Pages.Clientes.IndexModel
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Inicio";
 }
 
-<h1>Index</h1>
+<h1>Listado de Clientes</h1>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    <a asp-page="Create" class="btn btn-success"><i class="bi bi-file-plus-fill"></i>Crear nuevo usuario</a>
 </p>
-<table class="table">
+<table class="table" class="table-responsive">
     <thead>
         <tr>
             <th>
@@ -50,9 +50,9 @@
                 @Html.DisplayFor(modelItem => item.FechaCita)
             </td>
             <td>
-                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+                <a class="btn btn-primary table-btn" asp-page="./Details" asp-route-id="@item.ID"><i class="bi bi-list-columns-reverse"></i>Detalles</a>
+                <a class="btn btn-success table-btn" asp-page="./Edit" asp-route-id="@item.ID">Editar</a> |
+                <a class="btn btn-danger table-btn" asp-page="./Delete" asp-route-id="@item.ID">Eliminar</a>
             </td>
         </tr>
 }
