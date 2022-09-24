@@ -1,7 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using RapiTalleres.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddDbContext<TallerContext>(opciones => 
+    opciones.UseSqlServer(builder.Configuration.GetConnectionString("ConnectionSqlServer")));
+
 
 var app = builder.Build();
 

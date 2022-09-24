@@ -1,0 +1,42 @@
+@page
+@model RapiTalleres.Pages.Servicios.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Servicio[0].Tipo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Servicio[0].Valor)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Servicio) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tipo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Valor)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ServicioID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.ServicioID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ServicioID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

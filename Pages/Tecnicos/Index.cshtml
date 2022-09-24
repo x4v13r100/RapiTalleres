@@ -1,0 +1,54 @@
+@page
+@model RapiTalleres.Pages.Tecnicos.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Tecnico[0].Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tecnico[0].Apellido)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tecnico[0].Contacto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tecnico[0].NivelAcademico)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Tecnico) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Apellido)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contacto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NivelAcademico)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.TecnicoID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.TecnicoID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.TecnicoID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

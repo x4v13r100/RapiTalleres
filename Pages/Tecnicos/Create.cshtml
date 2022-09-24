@@ -1,0 +1,46 @@
+@page
+@model RapiTalleres.Pages.Tecnicos.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Tecnico</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Tecnico.Nombre" class="control-label"></label>
+                <input asp-for="Tecnico.Nombre" class="form-control" />
+                <span asp-validation-for="Tecnico.Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tecnico.Apellido" class="control-label"></label>
+                <input asp-for="Tecnico.Apellido" class="form-control" />
+                <span asp-validation-for="Tecnico.Apellido" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tecnico.Contacto" class="control-label"></label>
+                <input asp-for="Tecnico.Contacto" class="form-control" />
+                <span asp-validation-for="Tecnico.Contacto" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tecnico.NivelAcademico" class="control-label"></label>
+                <input asp-for="Tecnico.NivelAcademico" class="form-control" />
+                <span asp-validation-for="Tecnico.NivelAcademico" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+

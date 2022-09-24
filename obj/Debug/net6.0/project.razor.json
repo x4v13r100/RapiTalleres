@@ -16298,6 +16298,51 @@
   "RootNamespace": "RapiTalleres",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\javi\\Desktop\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\Pages\\Servicios\\Details.cshtml",
+      "TargetPath": "Pages\\Servicios\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\javi\\Desktop\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\Pages\\Tecnicos\\Create.cshtml",
+      "TargetPath": "Pages\\Tecnicos\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\javi\\Desktop\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\Pages\\Citas\\Edit.cshtml",
+      "TargetPath": "Pages\\Citas\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\javi\\Desktop\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\Pages\\Clientes\\Delete.cshtml",
+      "TargetPath": "Pages\\Clientes\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\javi\\Desktop\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\Pages\\Citas\\Delete.cshtml",
+      "TargetPath": "Pages\\Citas\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\javi\\Desktop\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\Pages\\Tecnicos\\Details.cshtml",
+      "TargetPath": "Pages\\Tecnicos\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\javi\\Desktop\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\Pages\\Servicios\\Edit.cshtml",
+      "TargetPath": "Pages\\Servicios\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\javi\\Desktop\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\Pages\\Tecnicos\\Delete.cshtml",
+      "TargetPath": "Pages\\Tecnicos\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\javi\\Desktop\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\Pages\\Citas\\Index.cshtml",
+      "TargetPath": "Pages\\Citas\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\javi\\Desktop\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -16313,13 +16358,53 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\javi\\Desktop\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\Pages\\Clientes\\Create.cshtml",
+      "TargetPath": "Pages\\Clientes\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\javi\\Desktop\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\Pages\\Citas\\Details.cshtml",
+      "TargetPath": "Pages\\Citas\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\javi\\Desktop\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\javi\\Desktop\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\Pages\\Clientes\\Index.cshtml",
+      "TargetPath": "Pages\\Clientes\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\javi\\Desktop\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\Pages\\Citas\\Create.cshtml",
+      "TargetPath": "Pages\\Citas\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\javi\\Desktop\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\javi\\Desktop\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\Pages\\Tecnicos\\Edit.cshtml",
+      "TargetPath": "Pages\\Tecnicos\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\javi\\Desktop\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\Pages\\Clientes\\Edit.cshtml",
+      "TargetPath": "Pages\\Clientes\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\javi\\Desktop\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\Pages\\Servicios\\Delete.cshtml",
+      "TargetPath": "Pages\\Servicios\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\javi\\Desktop\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\Pages\\Servicios\\Create.cshtml",
+      "TargetPath": "Pages\\Servicios\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16330,6 +16415,21 @@
     {
       "FilePath": "c:\\Users\\javi\\Desktop\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\javi\\Desktop\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\Pages\\Servicios\\Index.cshtml",
+      "TargetPath": "Pages\\Servicios\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\javi\\Desktop\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\Pages\\Tecnicos\\Index.cshtml",
+      "TargetPath": "Pages\\Tecnicos\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\javi\\Desktop\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\Pages\\Clientes\\Details.cshtml",
+      "TargetPath": "Pages\\Clientes\\Details.cshtml",
       "FileKind": "mvc"
     }
   ],

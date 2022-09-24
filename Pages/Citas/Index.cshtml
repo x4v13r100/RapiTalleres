@@ -1,0 +1,48 @@
+@page
+@model RapiTalleres.Pages.Citas.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Cita[0].Tecnico)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cita[0].Cliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cita[0].Servicio)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Cita) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tecnico.Apellido)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cliente.Apellido)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Servicio.Tipo)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.CitaID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.CitaID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.CitaID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
