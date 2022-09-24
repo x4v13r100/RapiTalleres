@@ -28,5 +28,6 @@ namespace RapiTalleres.Pages.Servicios
                 Servicio = await _context.Servicios.ToListAsync();
             }
         }
+        
     }
 }

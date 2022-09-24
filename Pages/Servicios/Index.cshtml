@@ -2,41 +2,96 @@
 @model RapiTalleres.Pages.Servicios.IndexModel
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Inicio";
 }
+<h1 class="text-center"><strong>Listado de Servicios</strong></h1>
 
-<h1>Index</h1>
 
-<p>
-    <a asp-page="Create">Create New</a>
+
+
+<div class="card-body">
+    <div class="table-responsive">
+        
 </p>
-<table class="table">
-    <thead>
+<table class="table table-bordered" 
+            id="tblServicios" 
+            width="100%" 
+            cellspacing="0">
+            <thead class="text-center">
+                <tr>
+                    <th>Nombre</th>   
+                    <th>Acciones</th>    
+                </tr>
+            </thead>
+    <thead class="text-center">
         <tr>
-            <th>
+            @* <th>
                 @Html.DisplayNameFor(model => model.Servicio[0].Tipo)
-            </th>
-            <th>
+            </th> *@
+            @* <th>
                 @Html.DisplayNameFor(model => model.Servicio[0].Valor)
-            </th>
+            </th> *@
             <th></th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model.Servicio) {
-        <tr>
+        <tr class="text-center">
             <td>
                 @Html.DisplayFor(modelItem => item.Tipo)
             </td>
-            <td>
+            @* <td>
                 @Html.DisplayFor(modelItem => item.Valor)
-            </td>
+            </td> *@
             <td>
-                <a asp-page="./Edit" asp-route-id="@item.ServicioID">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.ServicioID">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.ServicioID">Delete</a>
+                <a class="btn btn-primary table-btn"  asp-page="./Details" asp-route-id="@item.ServicioID">
+                <i class="bi bi-list-columns-reverse"></i> Detalles</a>
+                <a class="btn btn-success table-btn" asp-page="./Edit" asp-route-id="@item.ServicioID">
+                <i class="bi bi-pen"></i> Editar</a> |
+                <a class="btn btn-danger table-btn" asp-page="./Delete" asp-route-id="@item.ServicioID">
+                <i class="bi bi-trash-fill"></i> Eliminar</a>
             </td>
         </tr>
 }
     </tbody>
 </table>
+    </div>
+    <p>
+    
+</div>
+<a asp-page="Create"class="btn btn-primary"><i class="bi bi-person-plus-fill"></i>Adiccionar un servicio</a>
+
+
+
+@section Scripts{ 
+    <script>
+        $(document).ready(function () {
+            //Llamar a datatable
+            $('#tblServicios').DataTable({
+                language: {
+                    "decimal": "",
+                    "emptyTable": "No hay información",
+                    "info": "Mostrando _START_ a _END_ de _TOTAL_ Entradas",
+                    "infoEmpty": "Mostrando 0 to 0 of 0 Entradas",
+                    "infoFiltered": "(Filtrado de _MAX_ total entradas)",
+                    "infoPostFix": "",
+                    "thousands": ",",
+                    "lengthMenu": "Mostrar _MENU_ Entradas",
+                    "loadingRecords": "Cargando...",
+                    "processing": "Procesando...",
+                    "search": "Buscar:",
+                    "zeroRecords": "Sin resultados encontrados",
+                    "paginate": {
+                        "first": "Primero",
+                        "last": "Ultimo",
+                        "next": "Siguiente",
+                        "previous": "Anterior"
+                    }
+                }
+            });
+        });        
+    </script>
+}
+
+
+

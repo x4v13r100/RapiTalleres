@@ -5,33 +5,43 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
-
-<h4>Servicio</h4>
-<hr />
 <div class="row">
-    <div class="col-md-4">
-        <form method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Servicio.ServicioID" />
-            <div class="form-group">
-                <label asp-for="Servicio.Tipo" class="control-label"></label>
-                <input asp-for="Servicio.Tipo" class="form-control" />
-                <span asp-validation-for="Servicio.Tipo" class="text-danger"></span>
+    <div class="col-12">
+        <div class="card border">
+            <div class="card-header text-center">
+                @if (@Model.Servicio.ServicioID > 0)
+                {
+                    <h1 class="text-center">Edición de los datos del Servicio</h1>
+                    <h2>@Model.Servicio.Tipo</h2>
+                }
+                else
+                {
+                    <h1 class="text-center">Ingresar datos del servicio</h1>
+                }
+
             </div>
-            <div class="form-group">
-                <label asp-for="Servicio.Valor" class="control-label"></label>
-                <input asp-for="Servicio.Valor" class="form-control" />
-                <span asp-validation-for="Servicio.Valor" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
+            <form method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Servicio.ServicioID" />
+                <div class="form-group">
+                    <label asp-for="Servicio.Tipo" class="control-label"></label>
+                    <input asp-for="Servicio.Tipo" class="form-control" />
+                    <span asp-validation-for="Servicio.Tipo" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Servicio.Valor" class="control-label"></label>
+                    <input asp-for="Servicio.Valor" class="form-control" />
+                    <span asp-validation-for="Servicio.Valor" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Grabar" class="btn btn-primary" /> |
+                    <a asp-page="./Index" class="btn btn-secondary"><i class="bi bi-skip-backward-circle-fill"></i>
+                        Volver a la
+                        Lista</a>
+                </div>
+            </form>
+        </div>
     </div>
 </div>
-
-<div>
-    <a asp-page="./Index">Back to List</a>
 </div>
-
+</div>

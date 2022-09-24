@@ -22,6 +22,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.Cita[0].Servicio)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cita[0].Servicio.Valor)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -29,13 +32,16 @@
 @foreach (var item in Model.Cita) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Tecnico.Apellido)
+                @Html.DisplayFor(modelItem => item.Tecnico.Nombre)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Cliente.Apellido)
+                @Html.DisplayFor(modelItem => item.Cliente.Nombre)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Servicio.Tipo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Servicio.Valor)
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.CitaID">Edit</a> |
