@@ -9892,11 +9892,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\javi\\Desktop\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\RapiTalleres.csproj",
+      "projectUniqueName": "D:\\Development\\MISION TIC 2022\\Ciclo 3 Desarrollo Web\\Desarrollo de Software\\Semana 7\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\RapiTalleres.csproj",
       "projectName": "RapiTalleres",
-      "projectPath": "C:\\Users\\javi\\Desktop\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\RapiTalleres.csproj",
+      "projectPath": "D:\\Development\\MISION TIC 2022\\Ciclo 3 Desarrollo Web\\Desarrollo de Software\\Semana 7\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\RapiTalleres.csproj",
       "packagesPath": "C:\\Users\\javi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\javi\\Desktop\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\obj\\",
+      "outputPath": "D:\\Development\\MISION TIC 2022\\Ciclo 3 Desarrollo Web\\Desarrollo de Software\\Semana 7\\Project.NET\\AppRapiTallerMax\\RapiTalleres\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

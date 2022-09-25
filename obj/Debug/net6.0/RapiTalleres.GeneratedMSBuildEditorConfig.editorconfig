@@ -8,117 +8,117 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RapiTalleres
 build_property.RootNamespace = RapiTalleres
-build_property.ProjectDir = C:\Users\javi\Desktop\Project.NET\AppRapiTallerMax\RapiTalleres\
+build_property.ProjectDir = D:\Development\MISION TIC 2022\Ciclo 3 Desarrollo Web\Desarrollo de Software\Semana 7\Project.NET\AppRapiTallerMax\RapiTalleres\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\javi\Desktop\Project.NET\AppRapiTallerMax\RapiTalleres
+build_property.MSBuildProjectDirectory = D:\Development\MISION TIC 2022\Ciclo 3 Desarrollo Web\Desarrollo de Software\Semana 7\Project.NET\AppRapiTallerMax\RapiTalleres
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/javi/Desktop/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Citas/Create.cshtml]
+[D:/Development/MISION TIC 2022/Ciclo 3 Desarrollo Web/Desarrollo de Software/Semana 7/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Citas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2l0YXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/javi/Desktop/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Citas/Delete.cshtml]
+[D:/Development/MISION TIC 2022/Ciclo 3 Desarrollo Web/Desarrollo de Software/Semana 7/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Citas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2l0YXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/javi/Desktop/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Citas/Details.cshtml]
+[D:/Development/MISION TIC 2022/Ciclo 3 Desarrollo Web/Desarrollo de Software/Semana 7/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Citas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2l0YXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/javi/Desktop/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Citas/Edit.cshtml]
+[D:/Development/MISION TIC 2022/Ciclo 3 Desarrollo Web/Desarrollo de Software/Semana 7/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Citas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2l0YXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/javi/Desktop/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Citas/Index.cshtml]
+[D:/Development/MISION TIC 2022/Ciclo 3 Desarrollo Web/Desarrollo de Software/Semana 7/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Citas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2l0YXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/javi/Desktop/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Clientes/Create.cshtml]
+[D:/Development/MISION TIC 2022/Ciclo 3 Desarrollo Web/Desarrollo de Software/Semana 7/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Clientes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/javi/Desktop/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Clientes/Delete.cshtml]
+[D:/Development/MISION TIC 2022/Ciclo 3 Desarrollo Web/Desarrollo de Software/Semana 7/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Clientes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/javi/Desktop/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Clientes/Details.cshtml]
+[D:/Development/MISION TIC 2022/Ciclo 3 Desarrollo Web/Desarrollo de Software/Semana 7/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Clientes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/javi/Desktop/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Clientes/Edit.cshtml]
+[D:/Development/MISION TIC 2022/Ciclo 3 Desarrollo Web/Desarrollo de Software/Semana 7/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Clientes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/javi/Desktop/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Clientes/Index.cshtml]
+[D:/Development/MISION TIC 2022/Ciclo 3 Desarrollo Web/Desarrollo de Software/Semana 7/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Clientes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/javi/Desktop/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Error.cshtml]
+[D:/Development/MISION TIC 2022/Ciclo 3 Desarrollo Web/Desarrollo de Software/Semana 7/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/javi/Desktop/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Index.cshtml]
+[D:/Development/MISION TIC 2022/Ciclo 3 Desarrollo Web/Desarrollo de Software/Semana 7/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/javi/Desktop/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Privacy.cshtml]
+[D:/Development/MISION TIC 2022/Ciclo 3 Desarrollo Web/Desarrollo de Software/Semana 7/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/javi/Desktop/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Servicios/Create.cshtml]
+[D:/Development/MISION TIC 2022/Ciclo 3 Desarrollo Web/Desarrollo de Software/Semana 7/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Servicios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljaW9zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/javi/Desktop/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Servicios/Delete.cshtml]
+[D:/Development/MISION TIC 2022/Ciclo 3 Desarrollo Web/Desarrollo de Software/Semana 7/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Servicios/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljaW9zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/javi/Desktop/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Servicios/Details.cshtml]
+[D:/Development/MISION TIC 2022/Ciclo 3 Desarrollo Web/Desarrollo de Software/Semana 7/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Servicios/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljaW9zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/javi/Desktop/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Servicios/Edit.cshtml]
+[D:/Development/MISION TIC 2022/Ciclo 3 Desarrollo Web/Desarrollo de Software/Semana 7/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Servicios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljaW9zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/javi/Desktop/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Servicios/Index.cshtml]
+[D:/Development/MISION TIC 2022/Ciclo 3 Desarrollo Web/Desarrollo de Software/Semana 7/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Servicios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljaW9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/javi/Desktop/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Development/MISION TIC 2022/Ciclo 3 Desarrollo Web/Desarrollo de Software/Semana 7/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/javi/Desktop/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Tecnicos/Create.cshtml]
+[D:/Development/MISION TIC 2022/Ciclo 3 Desarrollo Web/Desarrollo de Software/Semana 7/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Tecnicos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVjbmljb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/javi/Desktop/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Tecnicos/Delete.cshtml]
+[D:/Development/MISION TIC 2022/Ciclo 3 Desarrollo Web/Desarrollo de Software/Semana 7/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Tecnicos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVjbmljb3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/javi/Desktop/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Tecnicos/Details.cshtml]
+[D:/Development/MISION TIC 2022/Ciclo 3 Desarrollo Web/Desarrollo de Software/Semana 7/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Tecnicos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVjbmljb3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/javi/Desktop/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Tecnicos/Edit.cshtml]
+[D:/Development/MISION TIC 2022/Ciclo 3 Desarrollo Web/Desarrollo de Software/Semana 7/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Tecnicos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVjbmljb3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/javi/Desktop/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Tecnicos/Index.cshtml]
+[D:/Development/MISION TIC 2022/Ciclo 3 Desarrollo Web/Desarrollo de Software/Semana 7/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Tecnicos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVjbmljb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/javi/Desktop/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/_ViewImports.cshtml]
+[D:/Development/MISION TIC 2022/Ciclo 3 Desarrollo Web/Desarrollo de Software/Semana 7/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/javi/Desktop/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/_ViewStart.cshtml]
+[D:/Development/MISION TIC 2022/Ciclo 3 Desarrollo Web/Desarrollo de Software/Semana 7/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/javi/Desktop/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Shared/_Layout.cshtml]
+[D:/Development/MISION TIC 2022/Ciclo 3 Desarrollo Web/Desarrollo de Software/Semana 7/Project.NET/AppRapiTallerMax/RapiTalleres/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-wj2ukabzte
