@@ -2,13 +2,13 @@
 @model RapiTalleres.Pages.Citas.IndexModel
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Inicio";
 }
 
-<h1>Index</h1>
+<h1>Agendar Citas</h1>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    <a asp-page="Create"class="btn btn-success"><i class="bi bi-file-plus-fill"></i>Crear Nueva Cita</a>
 </p>
 <table class="table">
     <thead>
@@ -24,6 +24,9 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Cita[0].Servicio.Valor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cita[0].Cliente.FechaCita)
             </th>
             <th></th>
         </tr>
@@ -44,9 +47,15 @@
                 @Html.DisplayFor(modelItem => item.Servicio.Valor)
             </td>
             <td>
-                <a asp-page="./Edit" asp-route-id="@item.CitaID">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.CitaID">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.CitaID">Delete</a>
+                @Html.DisplayFor(modelItem => item.Cliente.FechaCita)
+            </td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Details" asp-route-id="@item.CitaID">
+                <i class="bi bi-list-columns-reverse"></i>Detalles</a>
+                <a class="btn btn-success table-btn" asp-page="./Edit" asp-route-id="@item.CitaID">
+                <i class="bi bi-pen"></i>Editar</a> |
+                <a class="btn btn-danger table-btn" asp-page="./Delete" asp-route-id="@item.CitaID">
+                <i class="bi bi-trash-fill"></i>Eliminar</a>
             </td>
         </tr>
 }

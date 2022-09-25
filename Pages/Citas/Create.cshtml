@@ -2,27 +2,27 @@
 @model RapiTalleres.Pages.Citas.CreateModel
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Crear";
 }
 
-<h1>Create</h1>
+<h1>Crear nueva cita</h1>
 
-<h4>Cita</h4>
+<h4>Elija la informacion requerida</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Cita.TecnicoID" class="control-label"></label>
+                <label asp-for="Cita.TecnicoID" class="control-label">Nombre del  Tecnico</label>
                 <select asp-for="Cita.TecnicoID" class ="form-control" asp-items="ViewBag.TecnicoID"></select>
             </div>
             <div class="form-group">
-                <label asp-for="Cita.ClienteID" class="control-label"></label>
+                <label asp-for="Cita.ClienteID" class="control-label">Nombre del Cliente</label>
                 <select asp-for="Cita.ClienteID" class ="form-control" asp-items="ViewBag.ClienteID"></select>
             </div>
             <div class="form-group">
-                <label asp-for="Cita.ServicioID" class="control-label"></label>
+                <label asp-for="Cita.ServicioID" class="control-label">Tipo de Servicio</label>
                 <select asp-for="Cita.ServicioID" class ="form-control" asp-items="ViewBag.ServicioID"></select>
             </div>
             <div class="form-group">
@@ -33,6 +33,6 @@
 </div>
 
 <div>
-    <a asp-page="Index">Back to List</a>
+    <a asp-page="Index"class="btn btn-secondary"><i class="bi bi-skip-backward-circle-fill"></i> Volver a la Lista</a>
 </div>
 

@@ -2,10 +2,10 @@
 @model RapiTalleres.Pages.Clientes.DetailsModel
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Detalles";
 }
 
-<h1>Details</h1>
+<h1>Detalles del usuario</h1>
 
 <div>
     <h4>Cliente</h4>
@@ -44,6 +44,7 @@
     </dl>
 </div>
 <div>
-    <a asp-page="./Edit" asp-route-id="@Model.Cliente?.ID">Edit</a> |
-    <a asp-page="./Index">Back to List</a>
+    <a class="btn btn-success table-btn" asp-page="./Edit" asp-route-id="@Model.Cliente?.ID">
+    <i class="bi bi-pencil-fill"></i>Editar</a> |
+    <a asp-page="./Index"class="btn btn-secondary"><i class="bi bi-skip-backward-circle-fill"></i> Volver a la Lista</a>
 </div>

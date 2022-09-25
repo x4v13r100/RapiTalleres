@@ -2,26 +2,25 @@
 @model RapiTalleres.Pages.Citas.DetailsModel
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Detalle";
 }
 
-<h1>Details</h1>
+<h1>Informacion detallada de la Cita</h1>
 
 <div>
-    <h4>Cita</h4>
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Cita.Tecnico)
+            @Html.DisplayNameFor(model => model.Cita.TecnicoID)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Cita.Tecnico.Apellido)
+            @Html.DisplayFor(model => model.Cita.Tecnico.Nombre)
         </dd>
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Cita.Cliente)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Cita.Cliente.Apellido)
+            @Html.DisplayFor(model => model.Cita.Cliente.Nombre)
         </dd>
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Cita.Servicio)
@@ -29,9 +28,16 @@
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Cita.Servicio.Tipo)
         </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Cita.Cliente.FechaCita)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Cita.Cliente.FechaCita)
+        </dd>
     </dl>
 </div>
 <div>
-    <a asp-page="./Edit" asp-route-id="@Model.Cita?.CitaID">Edit</a> |
-    <a asp-page="./Index">Back to List</a>
+    <a class="btn btn-success table-btn" asp-page="./Edit" asp-route-id="@Model.Cita?.CitaID">
+    <i class="bi bi-pencil-fill"></i>Editar</a> |
+    <a asp-page="./Index"class="btn btn-secondary"><i class="bi bi-skip-backward-circle-fill"></i> Volver a la Lista</a>
 </div>
